@@ -34,7 +34,7 @@ ul a{
 .impacto p{
    text-align: center;
 }
-.cardapio{
+.home{
     padding: 40px px;
     
 }
@@ -73,4 +73,41 @@ footer{
     height: 200px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
+}
+.cards-menu{
+    align-items: start;
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+    color:#3b1f0e;
+    padding: 20px;
+    margin:20px 0;
+    border-radius: 1000px;
+     width: calc(50% - 75px);
+}
+.cards-menu img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+    justify-content: center;
+}
+.container-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 60px;
+    
+}
+.container{
+    justify-content: center;
+    align-items: center;
+}
+.cards-menu .info {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
 }
