@@ -111,3 +111,21 @@ footer{
     min-width: 0;
     text-align: center;
 }
+.sobre-historia{
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+.sobre-historia img{
+    width: 600px;
+
+}
+.sobre-valores{
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+.sobre-localizacao{
+    text-align: center;
+    padding: 60px 20px;
+}
